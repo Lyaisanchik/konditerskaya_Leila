@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Цветущая кондитерская — съедобные цветы в Нефтекамске</title>
+  <meta name="description" content="Сахарные цветы и оформление свадебных тортов композициями из сахарных цветов. Цветущая кондитерская — Нефтекамск." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Manrope:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="page-bloom" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <a href="#/" class="brand" aria-label="Цветущая кондитерская — на главную">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text">
+        <span class="brand-name">Цветущая кондитерская</span>
+        <span class="brand-city">Нефтекамск</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="main-nav" aria-label="Основное меню">
+      <a href="#/" data-nav>Главная</a>
+      <a href="#/catalog" data-nav>Каталог</a>
+      <a href="#/delivery" data-nav>Доставка</a>
+      <a href="#/cart" class="nav-cart" data-nav>
+        Корзина
+        <span class="cart-count" id="cart-count" hidden>0</span>
+      </a>
+    </nav>
+
+    <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-script">Цветущая кондитерская</p>
+        <p class="footer-lead">Сладкие цветы и бутоны для особенных дней в Нефтекамске.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <p class="footer-label">Магазин</p>
+          <a href="#/catalog">Каталог</a>
+          <a href="#/delivery">Доставка</a>
+          <a href="#/cart">Корзина</a>
+        </div>
+        <div>
+          <p class="footer-label">Документы</p>
+          <a href="#/privacy">Конфиденциальность</a>
+          <a href="#/offer">Публичная оферта</a>
+        </div>
+        <div>
+          <p class="footer-label">Связь</p>
+          <a href="tel:+79053528081">+7 (905) 352-80-81</a>
+          <a href="https://t.me/cvetushaya" target="_blank" rel="noopener">Telegram</a>
+          <a href="#/admin" class="footer-admin">Админка</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Цветущая кондитерская · Нефтекамск</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
